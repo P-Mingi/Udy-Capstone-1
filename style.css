@@ -5,17 +5,16 @@ html {
 }
 
 .navbar {
-    background-color: ;
-    border: 1px solid green;
+    background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
     font-size: 1.5rem;
     padding: 1rem;
     padding-right: 0;
 }
+
 
 .navbar ul {
     list-style: none;
@@ -49,3 +48,11 @@ a {
     }
 }
 
+/** - - - - - - Navbar End - - - - - - **/
+
+
+.hereo-img {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
